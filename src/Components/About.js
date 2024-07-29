@@ -3,7 +3,7 @@ import AboutImg from '../assets/aboutImg1.png'
 
 export const About = () => {
   return (
-    <section className='about bg-slate-600 text-white  flex flex-col md:flex-row px-5 font-intro-font'>
+    <section className='about bg-slate-600 text-white  flex flex-col md:flex-row px-5 py-20 font-intro-font'>
         <div className="ImgDiv md:w-1/2 justify-center py-5">
             <img className='introImg justify-center' src={AboutImg} alt='mern logo'/>
         </div>
