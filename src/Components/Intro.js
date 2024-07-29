@@ -4,7 +4,7 @@ import { AiOutlineGithub,AiOutlineMail,AiOutlineLinkedin } from "react-icons/ai"
 
 export const Intro = () => {
   return (
-    <section className="flex flex-col md:flex-row px-5 py-32 bg-secondary justify-center">
+    <section className="flex flex-col md:flex-row px-5 py-32 bg-secondary justify-center font-intro-font">
       <div className="md:w-1/2 flex flex-col">
         <h1 className="text-white text-5xl">
           Hi, <br /> I'm Rohini
